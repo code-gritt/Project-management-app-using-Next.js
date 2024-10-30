@@ -94,7 +94,7 @@ export default function SprintCreationForm({
                   id="name"
                   {...register("name")}
                   readOnly
-                  className="bg-slate-950"
+                  className="bg-white"
                 />
                 {errors.name && (
                   <p className="text-red-500 text-sm mt-1">
@@ -114,7 +114,7 @@ export default function SprintCreationForm({
                       <PopoverTrigger asChild>
                         <Button
                           variant="outline"
-                          className={`w-full justify-start text-left font-normal bg-slate-950 ${
+                          className={`w-full justify-start text-left font-normal bg-white ${
                             !dateRange && "text-muted-foreground"
                           }`}
                         >
